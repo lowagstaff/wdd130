@@ -29,6 +29,11 @@ main section{
     font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
+section {
+    text-align: center;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
 #background{
     height: 725px;
     font-family: "Josefin Sans", Helvetica, sans-serif;
@@ -47,7 +52,7 @@ h2 {
 }
 
 header{
-    background-color: #57cc99;
+    background-color: #38a3a5;
     font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
