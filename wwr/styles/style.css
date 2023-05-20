@@ -39,6 +39,7 @@ body{
     font-family: "Josefin Sans", Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    font-size: 22px;
 }
 
 h2 {
@@ -63,7 +64,7 @@ nav a:hover{
     font-family: "Josefin Sans", Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 10px;
+    margin-top: 50px;
     border-radius: 5px;
 }
 
@@ -167,7 +168,7 @@ footer .social img{
 }
 
 .card-img {
-    border: 10px solid #22577a; 
+    border: 10px solid #57cc99; 
 }
 
 main section img{
