@@ -1,108 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yatra+One&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 nav a {
     text-align: center;
     color:#57cc99;
     text-decoration: none;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .button-box{
     text-align: center;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 main section{
     text-align: center;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 #background{
     height: 725px;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 body{
     background-color: #38a3a5;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header{
     background-color: #57cc99;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 nav a:hover{
     background-color: #22577a;
     color:aqua;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .book, .join{
     background-color: #57cc99;
     color:bisque;
     text-decoration: none;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     background-color: #22577a;
     color: aqua;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 #background{
     background-color: #c7f9cc;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .msg{
     background-color: #38a3a5;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding:35px;
 }
 
 footer{
     background-color: #38a3a5;
     color: bisque;
-}
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+}    
 
 .home-title{
     color:#c7f9cc;
+    font-family: "Yatra One", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color:#38a3a5;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .msg h2{
     color: #22577a;
+    font-family: "Yatra One", Helvetica, sans-serif;
 }
 
 .msg p{
     color: #22577a;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a{
     color: #57cc99;
     text-decoration: none;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 footer a:hover{
     color: aqua;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .icon{
     width: 80px;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 #hero-img{
     width: 100%;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 footer p{
     font-size: 1.2em;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 footer p a:hover{
     text-decoration: underline;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #22577a; 
+}
+
+main section img{
+    box-sizing: border-box;
 }
