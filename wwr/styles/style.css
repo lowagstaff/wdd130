@@ -8,7 +8,7 @@
 
 nav a {
     text-align: center;
-    color:#57cc99;
+    color: bisque;
     text-decoration: none;
     font-family: "Josefin Sans", Helvetica, sans-serif;
     padding: 35px;
@@ -135,7 +135,7 @@ h4{
 }
 
 footer a{
-    color: #57cc99;
+    color: black;
     text-decoration: none;
     font-family: "Josefin Sans", Helvetica, sans-serif;
 }
@@ -149,6 +149,11 @@ footer a:hover{
     width: 80px;
     font-family: "Josefin Sans", Helvetica, sans-serif;
     padding-top: 10px;
+}
+
+h3{
+    color: bisque;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
 }
 
 .logo{
@@ -191,6 +196,12 @@ footer .social img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.card-img2 {
+    border: 10px solid #57cc99; 
+    width: 60%;
+}
+
+
 main section img{
     box-sizing: border-box;
 }
@@ -224,7 +235,7 @@ nav {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
 }
 
 .card-img, .mountains{
