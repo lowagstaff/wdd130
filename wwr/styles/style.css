@@ -235,7 +235,7 @@ nav {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
 }
 
 .card-img, .mountains{
