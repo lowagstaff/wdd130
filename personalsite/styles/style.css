@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yatra+One&display=swap');
+
+body{
+    background-color: #cad2c5;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+}
+
+nav a {
+    text-align: center;
+    color: #354f52;
+    text-decoration: none;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    padding: 57.5px;
+    font-size: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover{
+    background-color: #354f52;
+    color:white;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    height: 35px;
+}
+
+header{
+    background-color: #84a98c; 
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 150px;
+}
+
+section{
+    text-align: center;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    font-size: 60px;
+    color: #354f52;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.suit-image{
+    grid-column: 2/3;
+    grid-row: 1;
+    padding: 25px;
+    padding-top: 30px;
+}
+
+.hiking-image{
+    grid-column: 2/3;
+    grid-row: 4;
+    padding: 30px;
+}
+
+.msg1{
+    grid-column: 8/20;
+    grid-row: 1/4;
+    font-size: 30px;
+    color: #354f52;
+}
+
+.msg2{
+    grid-column: 8/20;
+    grid-row: 4/20;
+    font-size: 30px;
+    color: #354f52;
+}
+
+footer{
+    background-color: #84a98c;
+    color: #354f52;
+    font-family: "Josefin Sans", Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}    
