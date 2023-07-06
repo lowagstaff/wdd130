@@ -16,13 +16,14 @@ nav a {
     text-decoration: none;
     font-family: "Josefin Sans", Helvetica, sans-serif;
     padding: 57.5px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
 }
+
 
 nav a:hover{
     background-color: #354f52;
@@ -32,20 +33,24 @@ nav a:hover{
 }
 
 header{
+    position: fixed;
     background-color: #84a98c; 
     font-family: "Josefin Sans", Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
-    height: 150px;
+    height: 150px; 
+    padding: 10px;
+    width: 98%;
+    top: 10px;
 }
 
 section{
     text-align: center;
     font-family: "Josefin Sans", Helvetica, sans-serif;
     grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    font-size: 60px;
+    grid-row: 5;
+    font-size: 45px;
+    margin-top: 13%;
     color: #354f52;
 }
 
