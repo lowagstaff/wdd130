@@ -44,18 +44,11 @@ header{
     top: 10px;
 }
 
-section{
-    font-family: "Josefin Sans", Helvetica, sans-serif;
-    grid-column: 2/3;
-    grid-row: 5;
-    font-size: 45px;
-    color: #354f52;
-}
-
 #topper{
     margin-top: 13%;
     text-align: center;
     color:#354f52;
+    font-size: 45px;
 }
 
 .home-grid {
