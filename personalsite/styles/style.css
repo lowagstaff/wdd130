@@ -98,8 +98,8 @@ header{
 }
 
 .waveform-pic{
-    padding-left: 100%;
-    grid-row: 10/20;
+    grid-column: 8;
+    grid-row: 2;
 }
 
 footer{
