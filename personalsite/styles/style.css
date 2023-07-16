@@ -98,7 +98,7 @@ header{
 
 .msg{
     grid-column: 8/12;
-    grid-row: 0;
+    grid-row: 1;
     font-size: 30px;
     color: #354f52;
 }
